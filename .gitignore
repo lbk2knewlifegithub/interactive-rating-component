@@ -2,9 +2,11 @@
 
 # Compiled output
 /dist
+/build
 /tmp
 /out-tsc
 /bazel-out
+.vscode
 
 # Node
 /node_modules

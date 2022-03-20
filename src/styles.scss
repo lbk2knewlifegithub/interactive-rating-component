@@ -4,5 +4,19 @@
 
 @layer base {
   :root {
+    body {
+      @apply bg-blue-500 h-screen;
+      @apply flex justify-center items-center;
+    }
+
+    .btn {
+      @apply duration-300 uppercase tracking-wider font-bold;
+      @apply rounded-full py-3 w-full;
+      @apply hover:shadow-sm hover:-translate-y-1 active:scale-95;
+    }
+    .btn-primary {
+      @apply bg-orange text-white;
+      @apply hover:text-orange hover:bg-white hover:shadow-white;
+    }
   }
 }
