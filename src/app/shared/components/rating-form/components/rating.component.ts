@@ -46,7 +46,6 @@ export class RatingComponent implements OnInit {
     this.rotate$ = this._rs.stars$.pipe(
       map((stars) => {
         let deg = (360 / RatingFormService.MAX_STARS) * stars;
-        console.log(deg);
         return `rotate(${deg}deg)`;
       })
     );

@@ -6,7 +6,7 @@ import { scaleIn } from '@app/shared';
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <main class="container">
-      <lbk-rating-form @scaleIn></lbk-rating-form>
+      <lbk-rating-form class="block" @scaleIn></lbk-rating-form>
     </main>
   `,
   animations: [scaleIn()],
